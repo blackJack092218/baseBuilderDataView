@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="79" height="60.79" viewBox="0 0 79 60.79">
+  <defs>
+    <filter id="路径_11135" x="5.68" y="0" width="67.413" height="60.79" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feFlood flood-color="#0cf" flood-opacity="0.922"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="gfIcon" transform="translate(-2360 -3962.707)">
+    <g id="组_25903" data-name="组 25903" transform="translate(-144 -64)">
+      <rect id="矩形_2097" data-name="矩形 2097" width="77" height="58" transform="translate(2505 4028)" fill="rgba(2,32,71,0.54)"/>
+      <path id="路径_11133" data-name="路径 11133" d="M2279.765,4649.425V4628.81h20.1" transform="translate(225.235 -600.986)" fill="none" stroke="#145e71" stroke-width="2"/>
+      <path id="路径_11134" data-name="路径 11134" d="M2279.765,4649.425V4628.81h20.1" transform="translate(4861.765 8714.811) rotate(180)" fill="none" stroke="#145e71" stroke-width="2"/>
+    </g>
+    <g id="光伏板" transform="translate(2335.2 3757.608)">
+      <g transform="matrix(1, 0, 0, 1, 24.8, 205.1)" filter="url(#路径_11135)">
+        <path id="路径_11135-2" data-name="路径 11135" d="M98.612,232.96l.038,2.8h5.109l-.53-2.8Zm11.26,2.8-1.116-2.8h-4.617l.643,2.8Zm1.7,4.258-1.438-3.6h-5.223l.814,3.6Zm-5.923,5.715-.927-4.844h-5.98l.076,4.844Zm-1.079-5.715-.7-3.6h-5.2l.057,3.6Zm-13.057-4.258.624-2.8H88.09l-.549.019-.208.473-.927,2.309Zm6.169-2.8H93.067l-.53,2.8h5.09Zm-.057,3.463H92.4l-.681,3.6h5.828Zm-.076,4.466h-6l-.927,4.844h6.831Zm-6.188-4.466H86.141l-1.419,3.6H90.55Zm-8.932,9.31h6.831l1.1-4.844h-6Zm31.413,0-1.93-4.844h-5.98l1.079,4.844ZM101.7,257.75H94.827l1.23-12.016h4.409Z" transform="translate(-58.75 -214.96)" fill="#fff"/>
+      </g>
+      <path id="路径_11136" data-name="路径 11136" d="M81.256,235.38,75.73,223.553a2.17,2.17,0,0,0-1.855-.833H54.725a2.148,2.148,0,0,0-1.855.833L47.345,235.38c-.492,1.06.132,1.987,1.438,1.987h31C81.124,237.348,81.748,236.44,81.256,235.38Zm-7.948-.057H49.067l1.609-3.841-.019-.019,3.368-7.948,20.57-.076,3.141,7.475-.019.019,1.855,4.39Z" transform="translate(0 0)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

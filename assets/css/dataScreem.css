@@ -1,0 +1,427 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background: url(../img/mainBg.png) no-repeat scroll top/cover
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.contentBody {
+    height: 78vh;
+    display: flex;
+    padding: 12px;
+}
+
+.sysLogo {
+    height: 80%;
+}
+
+
+/* 左侧样式开始  */
+
+.leftArea,
+.rightArea {
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+}
+
+.logo {}
+
+.baseInfo {
+    flex-grow: 1;
+    background-color: #0000004f;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.projectNum {
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    color: white;
+}
+
+.projectNum>.blockHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.projectNum>.blockHeader span {
+    font-size: 28px;
+    color: white;
+    padding-right: 12px;
+}
+
+.projectNumBody {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.fjArea,
+.gfArea {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+}
+
+.fjArea>div,
+.gfArea>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fjArea>div p,
+.gfArea>div p {
+    color: white;
+    font-size: 14px;
+}
+
+.fjArea>p {
+    color: #16b2f5;
+    font-size: 36px;
+}
+
+.gfArea>p {
+    color: #ffd809;
+    font-size: 36px;
+}
+
+.ilegalSlider {
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.ticketsInfo {
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.swiperWrap {
+    flex-grow: 1;
+    overflow: hidden;
+}
+
+.swiper-wrapper {
+    padding: 12px;
+}
+
+.swiper-slide {
+    background-color: rgba(3, 65, 109, 0.736);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ticketsBody {
+    flex-grow: 1;
+    display: flex;
+}
+
+.leftTabs {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.rightCharts {
+    flex-grow: 1;
+}
+
+.leftTabs li {
+    color: white;
+    font-size: 18px;
+    width: 100%;
+    text-align: center;
+    padding: 12px 0;
+}
+
+.leftTabs .activeWorkspace {
+    background: linear-gradient(90deg, rgba(0, 57, 156, 0.01) 0%, rgb(5 101 174) 49%, rgba(0, 212, 255, 0.01) 100%);
+}
+
+
+/* 左侧样式结束  */
+
+
+/* ----------------------------------------------------------------------- */
+
+
+/* 中部样式开始 */
+
+.midArea {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+}
+
+.countInfo {
+    display: flex;
+    justify-content: space-around;
+}
+
+.countItem {
+    width: 25%;
+    /* background: url(../img/headerImg.svg);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat; */
+    height: 12vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.countItem h4 {
+    text-align: center;
+    line-height: 32px;
+    width: 100%;
+    font-size: 20px;
+    color: white;
+    font-weight: normal;
+    background: url(../img/blockHeader.png) no-repeat;
+    background-size: cover;
+}
+
+.countItem p {
+    flex-grow: 1;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    color: #ffd809;
+    display: flex;
+    font-size: 36px;
+    font-weight: bold;
+    background: url(../img/blockBody.png) no-repeat;
+    justify-content: center;
+    background-size: cover;
+}
+
+.mapWrap {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+
+/* 中部样式结束 */
+
+
+/* ----------------------------------------------------------------------- */
+
+
+/* 右侧样式开始 */
+
+.rightArea {
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+}
+
+.attendanceArea {
+    /* flex-grow: 1; */
+    /* height: 360px; */
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.mechanicalList {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    overflow: auto;
+}
+
+.personChart {
+    flex-grow: 1;
+}
+
+.mainMechanicalInfo {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.attendanceInfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.attendanceInfo h5 {
+    color: #16b2f5;
+}
+
+.attendanceInfo span {
+    color: white;
+    font-size: 20px;
+    padding: 12px 0;
+    display: inline-block;
+}
+
+.attendanceInfo p {
+    color: white;
+    font-size: 36px;
+}
+
+.mechanicalItem {
+    width: 50%;
+    height: 33.33%;
+    background-image: url(../img/deviceImg.png);
+    background-size: 95% 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+
+.mechaincalImgArea {
+    width: 40%;
+}
+
+.blockHeader {
+    background: url(../img/titileImg.png) no-repeat;
+    height: 36px;
+    background-size: 100% 100%;
+}
+
+.blockHeader h4 {
+    color: white;
+    padding-left: 38px;
+    height: 36px;
+    line-height: 28px;
+    font-size: 20px;
+    text-shadow: 0px 2px 6px #16b2f5;
+}
+
+.mechaincalInfo {
+    width: 60%;
+}
+
+.mechaincalInfo h4 {
+    color: white;
+    font-size: 22px;
+    margin-bottom: 12px;
+    font-weight: 600;
+}
+
+.mechaincalInfo p {
+    color: #7ed3fa;
+}
+
+.scrollbar {
+    /* margin-left: 30px;
+    float: left;
+    height: 300px;
+    width: 65px;
+    background: #F5F5F5;
+    overflow-y: scroll;
+    margin-bottom: 25px; */
+}
+
+.scrollbar::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    background-color: #090442;
+}
+
+.scrollbar::-webkit-scrollbar {
+    width: 12px;
+    background-color: #090442;
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background-color: #032e6f;
+}
+
+
+/* 右侧样式结束  */
+
+
+/* ----------------------------------------------------------------------- */
+
+
+/* 底部样式开始 */
+
+.contentFooter {
+    height: 22vh;
+    display: flex;
+    padding: 12px;
+    gap: 12px;
+}
+
+.workAreaItem {
+    width: 33.33%;
+    background-color: #0a1529a3;
+    display: flex;
+    flex-direction: column;
+}
+
+.areaHeader {
+    height: 36px;
+    background-color: #0c507661;
+    line-height: 36px;
+    position: relative;
+}
+
+.areaHeader h4 {
+    padding-left: 42px;
+    color: #7ed3fa;
+}
+
+.areaHeader h4::before {
+    content: "";
+    background-image: url(../img/titleIcon.png);
+    background-size: 10px 24px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 24px;
+    height: 36px;
+    position: absolute;
+    left: 12px;
+}
+
+.areaBody {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.areaWeather {
+    width: 40%;
+    text-align: center;
+}
+
+.weatherImg {
+    width: 40%;
+}
+
+.areaProcess {
+    flex-grow: 1;
+    height: 100%;
+}

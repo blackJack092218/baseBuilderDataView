@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="132.334" height="84.275" viewBox="0 0 132.334 84.275">
+  <defs>
+    <linearGradient id="linear-gradient" x1="-2.747" y1="7.264" x2="-2.712" y2="8.251" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffe53d"/>
+      <stop offset="0.343" stop-color="#ffe03d"/>
+      <stop offset="0.765" stop-color="#ffd13d"/>
+      <stop offset="1" stop-color="#ffc53d"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" y1="1" x2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#c2e3ff"/>
+      <stop offset="0.049" stop-color="#c6e5ff"/>
+      <stop offset="0.403" stop-color="#def1ff"/>
+      <stop offset="0.729" stop-color="#edf8ff"/>
+      <stop offset="1" stop-color="#f2fbff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="0.5" y1="1" x2="0.5" y2="0.001" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#c2e3ff"/>
+      <stop offset="0.101" stop-color="#cbe7ff"/>
+      <stop offset="0.417" stop-color="#e0f2ff"/>
+      <stop offset="0.721" stop-color="#eef9ff"/>
+      <stop offset="1" stop-color="#f2fbff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="0.5" y1="1.002" x2="0.5" y2="0" xlink:href="#linear-gradient-3"/>
+  </defs>
+  <g id="组_25887" data-name="组 25887" transform="translate(-811.9 -599.425)">
+    <path id="路径_11114" data-name="路径 11114" d="M919.8,624.4a30.874,30.874,0,0,1,5.6-22.3,1.611,1.611,0,0,0-1.2-2.6,30.743,30.743,0,0,0-8.5.6A31.407,31.407,0,0,0,926.1,662a30.988,30.988,0,0,0,17.6-8.4,1.645,1.645,0,0,0-.7-2.8A31.628,31.628,0,0,1,919.8,624.4Z" fill="url(#linear-gradient)"/>
+    <g id="组_25886" data-name="组 25886">
+      <path id="路径_11115" data-name="路径 11115" d="M903.9,683.7l-20.4-23.1a25.628,25.628,0,1,0-26.6-3.6l-16.1,26.6h63.1Z" fill="url(#linear-gradient-2)"/>
+      <circle id="椭圆_306" data-name="椭圆 306" cx="23.5" cy="23.5" r="23.5" transform="translate(878.2 636.7)" fill="url(#linear-gradient-3)"/>
+      <circle id="椭圆_307" data-name="椭圆 307" cx="28.9" cy="28.9" r="28.9" transform="translate(811.9 625.8)" fill="url(#linear-gradient-4)"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="196" height="76" viewBox="0 0 196 76">
+  <defs>
+    <style>
+      .cls-1, .cls-4 {
+        fill: #fff;
+      }
+
+      .cls-1 {
+        stroke: #707070;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        fill: rgba(23,88,142,0.54);
+      }
+
+      .cls-5 {
+        fill: rgba(23,155,213,0.57);
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect id="矩形_2071" data-name="矩形 2071" class="cls-1" width="196" height="60"/>
+    </clipPath>
+  </defs>
+  <g id="deviceImg" transform="translate(-1148 -659)">
+    <g id="组_25738" data-name="组 25738" transform="translate(-5 597)">
+      <g id="蒙版组_2" data-name="蒙版组 2" class="cls-2" transform="translate(1153 70)">
+        <path id="联合_7" data-name="联合 7" class="cls-3" d="M107.042,177.3,354.018,96.725l4.866,4.4L111.907,181.695Zm-8.92-8.06L345.1,88.665l4.866,4.4L102.987,173.634Zm-8.92-8.06L336.178,80.6l4.866,4.4L94.067,165.574Zm-8.92-8.061L327.258,72.544l4.866,4.4L85.147,157.513Zm-8.92-8.06L318.337,64.483l4.866,4.4L76.227,149.453ZM62.441,137,309.418,56.423l4.865,4.4L67.307,141.392Zm-8.921-8.06L300.5,48.363l4.865,4.4L58.386,133.332Zm-8.919-8.06L291.578,40.3l4.865,4.4L49.466,125.272Zm-8.92-8.06L282.657,32.242l4.865,4.4L40.546,117.211Zm-8.92-8.061L273.737,24.181l4.865,4.4L31.626,109.151Zm-8.92-8.06L264.817,16.121l4.865,4.4L22.706,101.09Zm-8.92-8.06L255.9,8.06l4.865,4.4L13.785,93.03ZM0,80.573,246.977,0l4.865,4.4L4.865,84.97Z" transform="translate(-81.43 -62.423)"/>
+      </g>
+      <rect id="矩形_2073" data-name="矩形 2073" class="cls-4" width="24" height="4" transform="translate(1153 62)"/>
+      <rect id="矩形_2076" data-name="矩形 2076" class="cls-4" width="24" height="4" transform="translate(1153 134)"/>
+      <rect id="矩形_2074" data-name="矩形 2074" class="cls-4" width="24" height="4" transform="translate(1325 62)"/>
+      <rect id="矩形_2075" data-name="矩形 2075" class="cls-4" width="24" height="4" transform="translate(1325 134)"/>
+    </g>
+    <rect id="矩形_2077" data-name="矩形 2077" class="cls-5" width="4" height="45" transform="translate(1209 675)"/>
+  </g>
+</svg>

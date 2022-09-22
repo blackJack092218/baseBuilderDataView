@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="113.3" height="113.2" viewBox="0 0 113.3 113.2">
+  <defs>
+    <linearGradient id="linear-gradient" x1="-0.002" y1="0.5" x2="0.995" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#74b8f2"/>
+      <stop offset="0.911" stop-color="#cdedfe"/>
+      <stop offset="1" stop-color="#d6f2ff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.001" y1="0.503" x2="0.996" y2="0.503" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-3" x1="-0.003" y1="0.5" x2="0.994" y2="0.5" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-4" x1="0" y1="0.503" x2="0.995" y2="0.503" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-5" x1="-0.001" y1="0.5" x2="0.996" y2="0.5" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-6" x1="-0.004" y1="0.503" x2="0.991" y2="0.503" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-7" x1="0.501" y1="1" x2="0.501" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#b4d2ed"/>
+      <stop offset="0.092" stop-color="#bcd7ef"/>
+      <stop offset="0.43" stop-color="#d4e7f5"/>
+      <stop offset="0.742" stop-color="#e3f1f9"/>
+      <stop offset="1" stop-color="#e8f4fa"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-8" x1="0.499" y1="1" x2="0.499" y2="0.001" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#b2d1eb"/>
+      <stop offset="0.165" stop-color="#c2dbef"/>
+      <stop offset="0.458" stop-color="#d7e9f5"/>
+      <stop offset="0.741" stop-color="#e5f2f9"/>
+      <stop offset="1" stop-color="#e9f5fa"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-9" x1="0.5" y1="1.001" x2="0.5" y2="0" xlink:href="#linear-gradient-8"/>
+  </defs>
+  <g id="组_25800" data-name="组 25800" transform="translate(-259.6 -245.5)">
+    <g id="组_25798" data-name="组 25798">
+      <g id="组_25792" data-name="组 25792">
+        <path id="路径_11049" data-name="路径 11049" d="M284.3,358.7a2.75,2.75,0,0,1-1.9-4.7l12.5-12.5a2.758,2.758,0,0,1,3.9,3.9l-12.5,12.5A3.176,3.176,0,0,1,284.3,358.7Z" fill="url(#linear-gradient)"/>
+      </g>
+      <g id="组_25793" data-name="组 25793">
+        <path id="路径_11050" data-name="路径 11050" d="M305.8,337.1a2.75,2.75,0,0,1-1.9-4.7l12.7-12.7a2.758,2.758,0,0,1,3.9,3.9l-12.7,12.7A2.709,2.709,0,0,1,305.8,337.1Z" fill="url(#linear-gradient-2)"/>
+      </g>
+      <g id="组_25794" data-name="组 25794">
+        <path id="路径_11051" data-name="路径 11051" d="M302.6,358.7a2.75,2.75,0,0,1-1.9-4.7l12.5-12.5a2.758,2.758,0,1,1,3.9,3.9l-12.5,12.5A3.176,3.176,0,0,1,302.6,358.7Z" fill="url(#linear-gradient-3)"/>
+      </g>
+      <g id="组_25795" data-name="组 25795">
+        <path id="路径_11052" data-name="路径 11052" d="M324.1,337.1a2.75,2.75,0,0,1-1.9-4.7l12.7-12.7a2.758,2.758,0,0,1,3.9,3.9l-12.7,12.7A2.709,2.709,0,0,1,324.1,337.1Z" fill="url(#linear-gradient-4)"/>
+      </g>
+      <g id="组_25796" data-name="组 25796">
+        <path id="路径_11053" data-name="路径 11053" d="M266,358.7a2.75,2.75,0,0,1-1.9-4.7l12.5-12.5a2.758,2.758,0,0,1,3.9,3.9L268,357.9A3.176,3.176,0,0,1,266,358.7Z" fill="url(#linear-gradient-5)"/>
+      </g>
+      <g id="组_25797" data-name="组 25797">
+        <path id="路径_11054" data-name="路径 11054" d="M287.6,337.1a2.75,2.75,0,0,1-1.9-4.7l12.7-12.7a2.758,2.758,0,0,1,3.9,3.9l-12.7,12.7A2.709,2.709,0,0,1,287.6,337.1Z" fill="url(#linear-gradient-6)"/>
+      </g>
+    </g>
+    <g id="组_25799" data-name="组 25799">
+      <path id="路径_11055" data-name="路径 11055" d="M351.5,317.6l-20.4-23.1a25.628,25.628,0,1,0-26.6-3.6l-16.1,26.6h63.1Z" fill="url(#linear-gradient-7)"/>
+      <circle id="椭圆_281" data-name="椭圆 281" cx="23.5" cy="23.5" r="23.5" transform="translate(325.9 270.6)" fill="url(#linear-gradient-8)"/>
+      <circle id="椭圆_282" data-name="椭圆 282" cx="28.9" cy="28.9" r="28.9" transform="translate(259.6 259.7)" fill="url(#linear-gradient-9)"/>
+    </g>
+  </g>
+</svg>

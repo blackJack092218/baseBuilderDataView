@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="129.1" height="78.34" viewBox="0 0 129.1 78.34">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.001" y1="0.501" x2="0.999" y2="0.501" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ccdae6"/>
+      <stop offset="0.076" stop-color="#d1dee9"/>
+      <stop offset="0.434" stop-color="#e5edf6"/>
+      <stop offset="0.678" stop-color="#ecf3fa"/>
+      <stop offset="0.989" stop-color="#d8e2eb"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.003" y1="0.506" x2="0.999" y2="0.506" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ecf3fa"/>
+      <stop offset="0.36" stop-color="#e5edf6"/>
+      <stop offset="0.888" stop-color="#d1dee9"/>
+      <stop offset="1" stop-color="#ccdae6"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="0.004" y1="0.503" x2="1.001" y2="0.503" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-4" x1="0.004" y1="0.518" x2="1" y2="0.518" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f2f5f7"/>
+      <stop offset="0.635" stop-color="#e5eff7"/>
+      <stop offset="1" stop-color="#dcebf7"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-5" y1="0.505" x2="1" y2="0.505" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ccdae6"/>
+      <stop offset="0.129" stop-color="#dae4ec"/>
+      <stop offset="0.385" stop-color="#f2f5f7"/>
+      <stop offset="0.775" stop-color="#e5eff7"/>
+      <stop offset="1" stop-color="#dcebf7"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-6" x1="0.002" y1="0.507" x2="0.998" y2="0.507" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#dcebf7"/>
+      <stop offset="0.365" stop-color="#e5eff7"/>
+      <stop offset="1" stop-color="#f2f5f7"/>
+    </linearGradient>
+  </defs>
+  <g id="组_25769" data-name="组 25769" transform="translate(-438.9 -602.26)">
+    <g id="组_25763" data-name="组 25763">
+      <path id="路径_11035" data-name="路径 11035" d="M552.5,641.7H457a2.8,2.8,0,0,1,0-5.6h95.5a9.9,9.9,0,0,0,0-19.8,10.362,10.362,0,0,0-5.9,1.9,2.72,2.72,0,1,1-3.2-4.4,15.131,15.131,0,0,1,9.2-3A15.407,15.407,0,0,1,568,626.2,15.578,15.578,0,0,1,552.5,641.7Z" fill="url(#linear-gradient)"/>
+    </g>
+    <g id="组_25764" data-name="组 25764">
+      <path id="路径_11036" data-name="路径 11036" d="M486.1,628.5H471.8a2.8,2.8,0,0,1,0-5.6h14.3a2.8,2.8,0,0,1,0,5.6Z" fill="url(#linear-gradient-2)"/>
+    </g>
+    <g id="组_25765" data-name="组 25765">
+      <path id="路径_11037" data-name="路径 11037" d="M518.2,628.5H497a2.8,2.8,0,0,1,0-5.6h21.2a9.859,9.859,0,0,0,9.9-9.9,9.983,9.983,0,0,0-2.2-6.2,2.772,2.772,0,0,1,4.3-3.5,15.208,15.208,0,0,1,3.4,9.6A15.451,15.451,0,0,1,518.2,628.5Z" fill="url(#linear-gradient-3)"/>
+    </g>
+    <g id="组_25766" data-name="组 25766">
+      <path id="路径_11038" data-name="路径 11038" d="M459.6,655.3H441.7a2.8,2.8,0,1,1,0-5.6h17.9a2.8,2.8,0,0,1,2.8,2.8A2.734,2.734,0,0,1,459.6,655.3Z" fill="url(#linear-gradient-4)"/>
+    </g>
+    <g id="组_25767" data-name="组 25767">
+      <path id="路径_11039" data-name="路径 11039" d="M517.9,680.6a2.8,2.8,0,0,1-2.8-2.8,2.734,2.734,0,0,1,2.8-2.8,9.9,9.9,0,0,0,0-19.8H470.2a2.8,2.8,0,1,1,0-5.6h47.7a15.5,15.5,0,0,1,0,31Z" fill="url(#linear-gradient-5)"/>
+    </g>
+    <g id="组_25768" data-name="组 25768">
+      <path id="路径_11040" data-name="路径 11040" d="M559.8,655.2H538.9a2.8,2.8,0,0,1-2.8-2.8,2.734,2.734,0,0,1,2.8-2.8h20.9a2.8,2.8,0,0,1,0,5.6Z" fill="url(#linear-gradient-6)"/>
+    </g>
+  </g>
+</svg>

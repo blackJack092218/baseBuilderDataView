@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="436" height="35" viewBox="0 0 436 35">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ebbf43;
+      }
+
+      .cls-2 {
+        fill: #43b7eb;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="titileImg" transform="translate(-2564 -4198)">
+    <rect id="矩形_2078" data-name="矩形 2078" class="cls-1" width="7" height="19" transform="translate(2564 4198)"/>
+    <rect id="矩形_2079" data-name="矩形 2079" class="cls-2" width="7" height="19" transform="translate(2571 4206)"/>
+    <rect id="矩形_2080" data-name="矩形 2080" class="cls-2" width="2" height="69" transform="translate(2633 4231) rotate(90)"/>
+    <rect id="矩形_2082" data-name="矩形 2082" class="cls-3" width="2" height="14" transform="translate(2653 4231) rotate(90)"/>
+    <rect id="矩形_2081" data-name="矩形 2081" class="cls-2" width="2" height="253" transform="translate(2911 4231) rotate(90)"/>
+    <rect id="矩形_2083" data-name="矩形 2083" class="cls-3" width="9" height="2" transform="translate(2921 4231)"/>
+    <rect id="矩形_2083-2" data-name="矩形 2083" class="cls-1" width="9" height="2" transform="translate(2935 4231)"/>
+    <rect id="矩形_2083-3" data-name="矩形 2083" class="cls-1" width="9" height="2" transform="translate(2949 4231)"/>
+    <rect id="矩形_2083-4" data-name="矩形 2083" class="cls-2" width="9" height="2" transform="translate(2963 4231)"/>
+    <rect id="矩形_2083-5" data-name="矩形 2083" class="cls-2" width="9" height="2" transform="translate(2977 4231)"/>
+    <rect id="矩形_2083-6" data-name="矩形 2083" class="cls-2" width="9" height="2" transform="translate(2991 4231)"/>
+  </g>
+</svg>
