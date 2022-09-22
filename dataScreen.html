@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>江西基建监控系统</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/dataScreem.css">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <script type="text/javascript" src="assets/js/echarts.min.js"></script>
+    <!-- <script type="text/javascript" src="assets/js/mainChart.js"></script> -->
+</head>
+
+<body>
+    <div class="content">
+
+        <!-- 上部 -->
+        <div class="contentBody">
+
+            <!-- 上--左侧 -->
+            <div class="leftArea">
+                <div class="logo">
+                    <img src="assets/img/logo.png" alt="" class="sysLogo">
+                </div>
+                <div class="baseInfo">
+                    <!-- 基建项目 -->
+                    <div class="projectNum">
+                        <div class="blockHeader">
+                            <h4>基建项目</h4>
+                            <span class="">23</span>
+                        </div>
+                        <div class="projectNumBody">
+                            <div class="fjArea">
+                                <div>
+                                    <img src="assets/img/fjIcon.svg" alt="">
+                                    <p>风场数量</p>
+                                </div>
+                                <p>14</p>
+                            </div>
+                            <div class="gfArea">
+                                <div>
+                                    <img src="assets/img/gfIcon.svg" alt="">
+                                    <p>光伏数量</p>
+                                </div>
+                                <p>9</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 违章轮播 -->
+                    <div class="ilegalSlider">
+                        <div class="blockHeader">
+                            <h4>违章轮播</h4>
+                        </div>
+                        <div class="swiperWrap">
+                            <div class="swiper-container ilegalSwiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">slider1</div>
+                                    <div class="swiper-slide">slider2</div>
+                                    <div class="swiper-slide">slider3</div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- 施工票信息 -->
+                    <div class="ticketsInfo">
+                        <div class="blockHeader">
+                            <h4>施工票信息</h4>
+                        </div>
+                        <div class="ticketsBody">
+                            <ul class="leftTabs">
+                                <li>工地一</li>
+                                <li class="activeWorkspace">工地二</li>
+                                <li>工地三</li>
+                            </ul>
+                            <!-- 施工票图表 -->
+                            <div class="rightCharts" id="ticketsChart">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 上---中侧 -->
+            <div class="midArea">
+                <!-- 统计信息 -->
+                <div class="countInfo">
+                    <div class="countItem">
+                        <h4>作业队伍数量</h4>
+                        <p>35</p>
+                    </div>
+                    <div class="countItem">
+                        <h4>线路总长度</h4>
+                        <p>32435</p>
+                    </div>
+                    <div class="countItem">
+                        <h4>装机容易</h4>
+                        <p>324.87</p>
+                    </div>
+                </div>
+                <!-- 江西地图 -->
+                <div class="mapWrap">
+                    <embed src="assets/img/jiangxiMap.svg" type="" class="jxMap">
+                </div>
+
+            </div>
+
+            <!-- 上--右侧 -->
+            <div class="rightArea">
+
+                <!-- 人员考勤 -->
+                <div class="attendanceArea">
+                    <div class="blockHeader">
+                        <h4>人员考勤在岗率</h4>
+                    </div>
+                    <div class="attendanceInfo">
+                        <div class="personNum">
+                            <span>现在岗人员:</span>
+                            <h5>过去12个月公司在岗超势图</h5>
+                        </div>
+                        <p>2，323</p>
+                    </div>
+                    <div class="personChart" id="personChart">
+
+                    </div>
+                </div>
+
+                <!-- 主要机械情况 -->
+                <div class="mainMechanicalInfo">
+                    <div class="blockHeader">
+                        <h4>主要机械情况</h4>
+                    </div>
+                    <ul class="mechanicalList scrollbar">
+                        <li class="mechanicalItem">
+                            <div class="mechaincalImgArea">
+                                <img src="" alt="">1
+                            </div>
+
+                            <div class="mechaincalInfo">
+                                <h4>机械名称</h4>
+                                <p>机械状态</p>
+                            </div>
+                        </li>
+                        <li class="mechanicalItem">
+                            <div class="mechaincalImgArea">
+                                <img src="" alt="">
+                            </div>
+
+                            <div class="mechaincalInfo">
+                                <h4>机械名称</h4>
+                                <p>机械状态</p>
+                            </div>
+                        </li>
+                        <li class="mechanicalItem">
+                            <div class="mechaincalImgArea">
+                                <img src="" alt="">
+                            </div>
+
+                            <div class="mechaincalInfo">
+                                <h4>机械名称</h4>
+                                <p>机械状态</p>
+                            </div>
+                        </li>
+                        <li class="mechanicalItem">
+                            <div class="mechaincalImgArea">
+                                <img src="" alt="">
+                            </div>
+
+                            <div class="mechaincalInfo">
+                                <h4>机械名称</h4>
+                                <p>机械状态</p>
+                            </div>
+                        </li>
+                        <li class="mechanicalItem">
+                            <div class="mechaincalImgArea">
+                                <img src="" alt="">
+                            </div>
+
+                            <div class="mechaincalInfo">
+                                <h4>机械名称</h4>
+                                <p>机械状态</p>
+                            </div>
+                        </li>
+
+                        <li class="mechanicalItem">
+                            <div class="mechaincalImgArea">
+                                <img src="" alt="">
+                            </div>
+
+                            <div class="mechaincalInfo">
+                                <h4>机械名称</h4>
+                                <p>机械状态</p>
+                            </div>
+                        </li>
+                        <li class="mechanicalItem">
+                            <div class="mechaincalImgArea">
+                                <img src="" alt="">
+                            </div>
+
+                            <div class="mechaincalInfo">
+                                <h4>机械名称</h4>
+                                <p>机械状态</p>
+                            </div>
+                        </li>
+                        <li class="mechanicalItem">
+                            <div class="mechaincalImgArea">
+                                <img src="" alt="">
+                            </div>
+
+                            <div class="mechaincalInfo">
+                                <h4>机械名称</h4>
+                                <p>机械状态</p>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+        <!-- 下部 -->
+        <div class="contentFooter">
+            <!-- 工地信息 -->
+            <div class="workAreaItem">
+                <div class="areaHeader">
+                    <h4>工地名称</h4>
+                </div>
+                <div class="areaBody">
+                    <div class="areaWeather">
+                        <img src="assets/img/weather (2).svg" alt="" class="weatherImg">
+                    </div>
+                    <div class="areaProcess" id="area1Chart">
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="workAreaItem">
+                <div class="areaHeader">
+                    <h4>工地名称</h4>
+                </div>
+                <div class="areaBody">
+                    <div class="areaWeather">
+                        <img src="assets/img/weather (4).svg" alt="" class="weatherImg">
+                    </div>
+                    <div class="areaProcess" id="area2Chart">
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="workAreaItem">
+                <div class="areaHeader">
+                    <h4>工地名称</h4>
+                </div>
+                <div class="areaBody">
+                    <div class="areaWeather">
+                        <img src="assets/img/weather (11).svg" alt="" class="weatherImg">
+                    </div>
+                    <div class="areaProcess" id="area3Chart">
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script>
+        var mySwiper = new Swiper('.swiper-container', {
+            direction: 'horizontal',
+            autoplay: 200,
+            loop: true,
+
+        })
+
+        window.onload = function() {
+            var charts = [];
+            var myChart = echarts.init(document.getElementById('ticketsChart'));
+            var colors = ['#43B7EB', '#FFC400', '#34C7E5', ];
+            var value = ((735 / (735 + 1048)) * 100).toFixed(2) + '%';
+            option = {
+                color: colors,
+                value1: value,
+                tooltip: {
+                    trigger: 'item',
+                    extraCssText: 'width:160px;height:60px;'
+                },
+                legend: {
+                    bottom: "2%",
+                    textStyle: {
+                        color: "white",
+                    }
+                },
+                series: [{
+                    name: '来源',
+                    type: 'pie',
+                    radius: ['45%', '65%'],
+                    avoidLabelOverlap: false,
+                    label: {
+                        show: true,
+                        position: 'center',
+                        formatter: '{a| 完成率}' + '\n\r' + '{c|' + value + '}',
+                        // text: '{a|' + value + '}{c|' + title + '}',
+
+                        textStyle: {
+                            rich: {
+                                a: {
+                                    fontSize: 14,
+                                    fontWeight: 500,
+                                    color: '#579ff9'
+                                },
+                                c: {
+                                    fontSize: 22,
+                                    color: '#FFC400',
+                                    fontWeight: 500,
+                                    padding: [5, 0]
+                                }
+                            }
+                        }
+                    },
+
+                    labelLine: {
+                        show: false
+                    },
+                    data: [{
+                        value: 1048,
+                        name: '发生次数'
+                    }, {
+                        value: 735,
+                        name: '消缺次数'
+                    }, ]
+                }]
+            };
+
+            // 使用刚指定的配置项和数据显示图表。
+            myChart.setOption(option);
+            charts.push(myChart);
+
+            var myChart = echarts.init(document.getElementById('area1Chart'));
+            option = {
+                tooltip: {
+                    trigger: 'axis',
+                    show: false,
+                    axisPointer: { // 坐标轴指示器，坐标轴触发有效
+                        type: 'shadow' // 默认为直线，可选为：'line' | 'shadow'
+                    },
+                },
+                legend: {
+                    show: false
+                },
+                grid: {
+                    left: '3%',
+                    right: '20%',
+                    bottom: '3%',
+                    top: '3%',
+                    containLabel: true
+                },
+                xAxis: [{
+                    splitLine: {
+                        show: false
+                    },
+                    type: 'value',
+                    show: false,
+                }],
+                yAxis: [{
+                    splitLine: {
+                        show: false
+                    },
+                    axisLine: { //y轴
+                        show: false
+                    },
+                    type: 'category',
+                    axisTick: {
+                        show: false
+                    },
+                    inverse: true,
+                    data: ['升压站进展', '光伏场区', '集电线图'],
+                    axisLabel: {
+                        color: '#A7D6F4',
+                        fontSize: 14,
+                    }
+                }],
+                series: [{
+                    name: '标准化',
+                    type: 'bar',
+                    barWidth: 15, // 柱子宽度
+                    label: {
+                        show: true,
+                        position: 'right', // 位置
+                        color: '#A7D6F4',
+                        fontSize: 14,
+                        distance: 15, // 距离
+                        formatter: '{c}' // 这里是数据展示的时候显示的数据
+                    }, // 柱子上方的数值
+                    itemStyle: {
+                        barBorderRadius: [0, 20, 20, 0], // 圆角（左上、右上、右下、左下）
+
+                        color: new echarts.graphic.LinearGradient(1, 0, 0, 0, [{
+                            offset: 0,
+                            color: '#51C5FD'
+                        }, {
+                            offset: 1,
+                            color: '#005BB1'
+                        }], false), // 渐变
+                    },
+                    data: [400, 380, 360]
+                }, ]
+            };
+            myChart.setOption(option);
+            charts.push(myChart);
+
+            var myChart = echarts.init(document.getElementById('area2Chart'));
+            option = {
+                tooltip: {
+                    trigger: 'axis',
+                    show: false,
+                    axisPointer: { // 坐标轴指示器，坐标轴触发有效
+                        type: 'shadow' // 默认为直线，可选为：'line' | 'shadow'
+                    },
+                },
+                legend: {
+                    show: false
+                },
+                grid: {
+                    left: '3%',
+                    right: '20%',
+                    bottom: '3%',
+                    top: '3%',
+                    containLabel: true
+                },
+                xAxis: [{
+                    splitLine: {
+                        show: false
+                    },
+                    type: 'value',
+                    show: false,
+                }],
+                yAxis: [{
+                    splitLine: {
+                        show: false
+                    },
+                    axisLine: { //y轴
+                        show: false
+                    },
+                    type: 'category',
+                    axisTick: {
+                        show: false
+                    },
+                    inverse: true,
+                    data: ['升压站进展', '光伏场区', '集电线图'],
+                    axisLabel: {
+                        color: '#A7D6F4',
+                        fontSize: 14,
+                    }
+                }],
+                series: [{
+                    name: '标准化',
+                    type: 'bar',
+                    barWidth: 15, // 柱子宽度
+                    label: {
+                        show: true,
+                        position: 'right', // 位置
+                        color: '#A7D6F4',
+                        fontSize: 14,
+                        distance: 15, // 距离
+                        formatter: '{c}' // 这里是数据展示的时候显示的数据
+                    }, // 柱子上方的数值
+                    itemStyle: {
+                        barBorderRadius: [0, 20, 20, 0], // 圆角（左上、右上、右下、左下）
+
+                        color: new echarts.graphic.LinearGradient(1, 0, 0, 0, [{
+                            offset: 0,
+                            color: '#51C5FD'
+                        }, {
+                            offset: 1,
+                            color: '#005BB1'
+                        }], false), // 渐变
+                    },
+                    data: [400, 380, 360]
+                }, ]
+            };
+            myChart.setOption(option);
+            charts.push(myChart);
+            var myChart = echarts.init(document.getElementById('area3Chart'));
+            option = {
+                tooltip: {
+                    trigger: 'axis',
+                    show: false,
+                    axisPointer: { // 坐标轴指示器，坐标轴触发有效
+                        type: 'shadow' // 默认为直线，可选为：'line' | 'shadow'
+                    },
+                },
+                legend: {
+                    show: false
+                },
+                grid: {
+                    left: '3%',
+                    right: '20%',
+                    bottom: '3%',
+                    top: '3%',
+                    containLabel: true
+                },
+                xAxis: [{
+                    splitLine: {
+                        show: false
+                    },
+                    type: 'value',
+                    show: false,
+                }],
+                yAxis: [{
+                    splitLine: {
+                        show: false
+                    },
+                    axisLine: { //y轴
+                        show: false
+                    },
+                    type: 'category',
+                    axisTick: {
+                        show: false
+                    },
+                    inverse: true,
+                    data: ['升压站进展', '光伏场区', '集电线图'],
+                    axisLabel: {
+                        color: '#A7D6F4',
+                        fontSize: 14,
+                    }
+                }],
+                series: [{
+                    name: '标准化',
+                    type: 'bar',
+                    barWidth: 15, // 柱子宽度
+                    label: {
+                        show: true,
+                        position: 'right', // 位置
+                        color: '#A7D6F4',
+                        fontSize: 14,
+                        distance: 15, // 距离
+                        formatter: '{c}' // 这里是数据展示的时候显示的数据
+                    }, // 柱子上方的数值
+                    itemStyle: {
+                        barBorderRadius: [0, 20, 20, 0], // 圆角（左上、右上、右下、左下）
+
+                        color: new echarts.graphic.LinearGradient(1, 0, 0, 0, [{
+                            offset: 0,
+                            color: '#51C5FD'
+                        }, {
+                            offset: 1,
+                            color: '#005BB1'
+                        }], false), // 渐变
+                    },
+                    data: [400, 380, 360]
+                }, ]
+            };
+            myChart.setOption(option);
+            charts.push(myChart);
+
+
+            var myChart = echarts.init(document.getElementById('personChart'));
+            option = {
+                tooltip: {
+                    trigger: 'axis',
+                    axisPointer: {
+                        lineStyle: {
+                            color: {
+                                type: 'bar',
+                                x: 0,
+                                y: 0,
+                                x2: 0,
+                                y2: 1,
+                                colorStops: [{
+                                    offset: 0,
+                                    color: 'rgba(0, 255, 233,0)'
+                                }, {
+                                    offset: 0.5,
+                                    color: 'rgba(255, 255, 255,1)',
+                                }, {
+                                    offset: 1,
+                                    color: 'rgba(0, 255, 233,0)'
+                                }],
+                                global: false
+                            }
+                        },
+                    },
+                },
+                grid: {
+                    top: '10%',
+                    left: '10%',
+                    right: '10%',
+                    bottom: '10%',
+                    // containLabel: true
+                },
+                xAxis: [{
+                    type: 'category',
+                    axisLine: {
+                        show: true
+                    },
+                    splitArea: {
+                        // show: true,
+                        color: '#f00',
+                        lineStyle: {
+                            color: '#f00'
+                        },
+                    },
+                    axisLabel: {
+                        color: '#fff'
+                    },
+                    splitLine: {
+                        show: false
+                    },
+                    boundaryGap: false,
+                    data: ['2021-1', '2021-2', '2021-3', '2021-4', '2022-1', '2022-2'],
+
+                }],
+
+                yAxis: [{
+                    type: 'value',
+                    min: 0,
+                    // max: 140,
+                    splitNumber: 4,
+                    splitLine: {
+                        show: true,
+                        lineStyle: {
+                            color: 'rgba(255,255,255,0.1)'
+                        }
+                    },
+                    axisLine: {
+                        show: false,
+                    },
+                    axisLabel: {
+                        show: false,
+                        margin: 20,
+                        textStyle: {
+                            color: '#d1e6eb',
+
+                        },
+                    },
+                    axisTick: {
+                        show: false,
+                    },
+                }],
+                series: [{
+                    name: '在岗人员',
+                    type: 'bar',
+                    smooth: false, //是否平滑
+                    showAllSymbol: true,
+                    // symbol: 'image://./static/images/guang-circle.png',
+                    symbol: 'circle',
+                    symbolSize: 8,
+                    lineStyle: {
+                        normal: {
+                            color: "#00b3f4",
+
+                        },
+                    },
+                    label: {
+                        show: true,
+                        position: 'top',
+                        textStyle: {
+                            color: '#00b3f4',
+                        }
+                    },
+                    itemStyle: {
+                        color: "#3ACEFD",
+                        // borderColor: "#fff",
+                        // borderWidth: 1,
+
+                    },
+                    tooltip: {
+                        show: false
+                    },
+                    areaStyle: {
+                        normal: {
+                            color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [{
+                                offset: 0,
+                                color: 'rgba(0,179,244,0.3)'
+                            }, {
+                                offset: 1,
+                                color: 'rgba(0,179,244,0)'
+                            }], false),
+                            shadowColor: 'rgba(0,179,244, 0.9)',
+                            shadowBlur: 20
+                        }
+                    },
+                    data: [502, 205, 332, 281, 398, 214]
+                }]
+            };
+            myChart.setOption(option);
+            charts.push(myChart);
+            window.onresize = function() {
+                for (var i = 0; i < charts.length; i++) {
+                    charts[i].resize();
+                }
+            }
+
+        }
+    </script>
+</body>
+
+</html>
