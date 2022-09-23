@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>测试flex中宽高撑开容器</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        
+        body {
+            margin: 0;
+            padding: 12px;
+            height: 100vh;
+            box-sizing: border-box;
+        }
+        
+        .flexWrap {
+            width: 30vw;
+            height: 60%;
+            background-color: beige;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .blockItem {
+            border-bottom: 1px dashed darkblue;
+            padding: 12px;
+            color: aqua;
+        }
+        
+        .blockItem:nth-child(1) {
+            height: 30%;
+            background-color: rgb(4, 67, 170);
+        }
+        
+        .blockItem:nth-child(2) {
+            height: 10%;
+            background-color: rgb(4, 67, 170);
+            overflow: auto;
+        }
+        
+        .blockItem:nth-child(2) img {
+            width: 100%;
+            height: 100%;
+            object-fit: fill;
+        }
+        
+        .blockItem:nth-child(3) {
+            height: 60%;
+            background-color: rgb(4, 67, 170);
+            overflow: auto;
+        }
+        
+         ::-webkit-scrollbar {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="flexWrap">
+        <div class="blockItem">Lorem ut ea anim pariatur. Proident ut eu nulla nisi in exercitation sunt dolor fugiat eu. Non amet qui cillum est labore nulla laborum aliqua. Quis ipsum excepteur deserunt enim sunt irure anim proident aliquip do elit fugiat.</div>
+        <div class="blockItem">
+            <img src="data:image/jpeg;base64,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"
+                alt="">
+        </div>
+        <div class="blockItem">
+            Mollit ad commodo pariatur occaecat occaecat elit ex sunt. Est culpa excepteur minim mollit nulla ut sunt sunt et occaecat esse esse duis. Est mollit anim tempor amet irure commodo anim. Irure culpa ad consectetur exercitation. Quis reprehenderit excepteur
+            amet enim nostrud exercitation aliqua dolor veniam culpa labore proident magna commodo. Sint excepteur aute tempor enim occaecat velit culpa eiusmod Lorem sit reprehenderit. Aliquip culpa proident esse fugiat exercitation. Lorem aliquip amet
+            ex excepteur in quis sit adipisicing deserunt enim anim consequat velit dolor. Aliquip laborum cupidatat officia ullamco. Est qui incididunt esse consectetur minim sint voluptate tempor do dolore. Labore et amet cillum nulla eu fugiat anim
+            consequat amet amet consectetur. Commodo aliquip laborum ea incididunt aute dolore. Qui commodo esse voluptate excepteur aute elit aliquip laboris. Adipisicing do officia et laborum tempor deserunt adipisicing ullamco. Occaecat labore irure
+            velit commodo reprehenderit adipisicing est et cillum voluptate consectetur esse sunt ut. Laborum aute in Lorem nostrud anim eu anim reprehenderit commodo enim minim irure. Commodo eu occaecat tempor nisi eiusmod ipsum. Cillum minim consectetur
+            laborum id aliquip ullamco reprehenderit. Minim tempor voluptate officia duis dolor reprehenderit qui proident minim veniam ut. Duis duis do ipsum consectetur ea incididunt ex. Elit exercitation ipsum nulla laboris culpa incididunt esse incididunt.
+        </div>
+    </div>
+</body>
+
+</html>

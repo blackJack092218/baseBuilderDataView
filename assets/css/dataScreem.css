@@ -304,6 +304,13 @@ body {
 
 .mechaincalImgArea {
     width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mechaincalImgArea img {
+    width: 50%;
 }
 
 .blockHeader {
